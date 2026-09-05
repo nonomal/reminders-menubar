@@ -132,8 +132,10 @@ enum RemindersMenuBarLocalizedKeys: String {
     case copySampleList
     case copySampleTags
     case showUpcomingRemindersSettingsOption
+    case reminderDisplaySettingsLabel
     case showExternalLinksInReminderItemOption
     case showExternalLinksInReminderItemNote
+    case completionSettingsLabel
     case completionAnimationSettingsOption
     case completionAnimationSettingsNote
     case showUpcomingReminderListNameOption
@@ -155,6 +157,7 @@ enum RemindersMenuBarLocalizedKeys: String {
     case timeFormat24HourOption
     case generalSettingsTab
     case menuBarSettingsTab
+    case sectionsSettingsTab
     case remindersSettingsTab
     case copySettingsTab
     case keyboardSettingsTab

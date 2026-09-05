@@ -81,6 +81,14 @@ struct GeneralSettingsTab: View {
                 .pickerStyle(.menu)
                 .labelsHidden()
             }
+
+            SettingsDivider()
+
+            SettingsSection {
+                Button(rmbLocalized(.reloadRemindersDataButton)) {
+                    NotificationCenter.default.post(name: .remindersDataShouldUpdate, object: nil)
+                }
+            }
         }
         .padding(20)
         .onAppear {

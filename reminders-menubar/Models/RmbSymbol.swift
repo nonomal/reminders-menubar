@@ -37,6 +37,7 @@ enum RmbSymbol {
     case plus
     case recurrence
     case safari
+    case textBelowFolder
     case tray
     case trash
     case xmark
@@ -138,6 +139,12 @@ enum RmbSymbol {
             return "repeat"
         case .safari:
             return "safari"
+        case .textBelowFolder:
+            if #available(macOS 13, *) {
+                return "text.below.folder"
+            } else {
+                return "folder"
+            }
         case .tray:
             return "tray"
         case .trash:
