@@ -23,6 +23,7 @@ private enum PreferencesKeys {
     static let reminderSortingOrder = "reminderSortingOrder"
     static let timeFormatIs24Hour = "timeFormatIs24Hour"
     static let showExternalLinksInReminderItem = "showExternalLinksInReminderItem"
+    static let showNotesInReminderItem = "showNotesInReminderItem"
     static let menuBarReminderPreviewEnabled = "menuBarReminderPreviewEnabled"
     static let menuBarReminderPreviewTimeAhead = "menuBarReminderPreviewTimeAhead"
     static let menuBarReminderPreviewMaxLength = "menuBarReminderPreviewMaxLength"
@@ -167,6 +168,14 @@ class UserPreferences: ObservableObject {
                 showExternalLinksInReminderItem,
                 forKey: PreferencesKeys.showExternalLinksInReminderItem
             )
+        }
+    }
+
+    @Published var showNotesInReminderItem: Bool = {
+        return defaults.bool(forKey: PreferencesKeys.showNotesInReminderItem)
+    }() {
+        didSet {
+            UserPreferences.defaults.set(showNotesInReminderItem, forKey: PreferencesKeys.showNotesInReminderItem)
         }
     }
     

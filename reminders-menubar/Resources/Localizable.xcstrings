@@ -20960,6 +20960,256 @@
         }
       }
     },
+    "showNotesInReminderItemNote" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Náhledy poznámek jsou omezeny na dva řádky. Úplné poznámky jsou vždy viditelné při otevření připomínky."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notizvorschauen sind auf zwei Zeilen begrenzt. Vollständige Notizen sind beim Öffnen einer Erinnerung immer sichtbar."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note previews are limited to two lines. Full notes are always visible when opening a reminder."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las vistas previas de las notas están limitadas a dos líneas. Las notas completas siempre están visibles al abrir un recordatorio."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limitado sa dalawang linya ang mga preview ng tala. Palaging makikita ang buong tala kapag binuksan ang isang paalala."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les aperçus des notes sont limités à deux lignes. Les notes complètes sont toujours visibles lors de l’ouverture d’un rappel."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pratinjau catatan dibatasi hingga dua baris. Catatan lengkap selalu terlihat saat membuka pengingat."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le anteprime delle note sono limitate a due righe. Le note complete sono sempre visibili quando si apre un promemoria."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メモのプレビューは2行まで表示されます。リマインダーを開くと、メモの全文をいつでも確認できます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "메모 미리보기는 두 줄로 제한됩니다. 미리 알림을 열면 전체 메모가 항상 표시됩니다."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voorvertoningen van notities zijn beperkt tot twee regels. Volledige notities zijn altijd zichtbaar wanneer je een herinnering opent."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podglądy notatek są ograniczone do dwóch wierszy. Pełne notatki są zawsze widoczne po otwarciu przypomnienia."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "As prévias das notas são limitadas a duas linhas. As notas completas estão sempre visíveis ao abrir um lembrete."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Предварительный просмотр заметок ограничен двумя строками. Полные заметки всегда видны при открытии напоминания."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Náhľady poznámok sú obmedzené na dva riadky. Úplné poznámky sú vždy viditeľné pri otvorení pripomienky."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not önizlemeleri iki satırla sınırlıdır. Bir hatırlatıcı açıldığında notların tamamı her zaman görünür."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Попередній перегляд нотаток обмежено двома рядками. Повні нотатки завжди видно після відкриття нагадування."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bản xem trước ghi chú được giới hạn ở hai dòng. Ghi chú đầy đủ luôn hiển thị khi mở lời nhắc."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "备注预览最多显示两行。打开提醒事项时始终可以查看完整备注。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "備註預覽最多顯示兩行。打開提醒事項時始終可以查看完整備註。"
+          }
+        }
+      }
+    },
+    "showNotesInReminderItemOption" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zobrazit poznámky pod každou připomínkou"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notizen unter jeder Erinnerung anzeigen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show notes below each reminder"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar notas debajo de cada recordatorio"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ipakita ang mga tala sa ibaba ng bawat paalala"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afficher les notes sous chaque rappel"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tampilkan catatan di bawah setiap pengingat"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostra le note sotto ogni promemoria"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "各リマインダーの下にメモを表示"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "각 미리 알림 아래에 메모 표시"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notities onder elke herinnering tonen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokaż notatki pod każdym przypomnieniem"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar notas abaixo de cada lembrete"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывать заметки под каждым напоминанием"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zobraziť poznámky pod každou pripomienkou"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her hatırlatıcının altında notları göster"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показувати нотатки під кожним нагадуванням"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiển thị ghi chú bên dưới mỗi lời nhắc"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在每个提醒事项下方显示备注"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在每個提醒事項下方顯示備註"
+          }
+        }
+      }
+    },
     "showTagsBeforeCalendarsOption" : {
       "extractionState" : "manual",
       "localizations" : {

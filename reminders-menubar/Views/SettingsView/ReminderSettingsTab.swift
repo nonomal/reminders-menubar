@@ -16,6 +16,15 @@ struct ReminderSettingsTab: View {
 
             SettingsSection(rmbLocalized(.reminderDisplaySettingsLabel)) {
                 Toggle(
+                    rmbLocalized(.showNotesInReminderItemOption),
+                    isOn: $userPreferences.showNotesInReminderItem
+                )
+
+                Text(rmbLocalized(.showNotesInReminderItemNote))
+                    .modifier(SettingsNoteStyle())
+                    .padding(.leading, 20)
+
+                Toggle(
                     rmbLocalized(.showExternalLinksInReminderItemOption),
                     isOn: $userPreferences.showExternalLinksInReminderItem
                 )

@@ -40,7 +40,10 @@ struct ReminderItemView: View {
             ReminderCompleteButton(reminderItem: reminderItem, isPendingCompletion: $isPendingCompletion)
 
             VStack(spacing: 4) {
-                reminderTitleRow()
+                VStack(spacing: 2) {
+                    reminderTitleRow()
+                    reminderNotesText()
+                }
 
                 if #available(macOS 12, *), !reminderItem.reminder.ekTags.isEmpty {
                     ReminderTagsView(tagNames: reminderItem.reminder.ekTags.map(\.name))
@@ -147,8 +150,16 @@ struct ReminderItemView: View {
         }
     }
 
+    private func detectedLinkText(_ string: String) -> Text {
+        if #available(macOS 12, *) {
+            return Text(string.toDetectedLinkAttributedString())
+        }
+
+        return Text(verbatim: string)
+    }
+
     private func reminderTitleText() -> Text {
-        let titleText = Text(LocalizedStringKey(reminderItem.reminder.title.toDetectedLinkAttributedString()))
+        let titleText = detectedLinkText(reminderItem.reminder.title)
 
         var prefixes: [(symbol: RmbSymbol, color: Color)] = []
         if reminderItem.reminder.isFlagged {
@@ -222,6 +233,21 @@ struct ReminderItemView: View {
     }
 
     @ViewBuilder
+    private func reminderNotesText() -> some View {
+        if userPreferences.showNotesInReminderItem,
+           let notes = reminderItem.reminder.notes,
+           !notes.isEmpty {
+            detectedLinkText(notes)
+                .font(.footnote)
+                .foregroundColor(.secondary)
+                .lineLimit(2)
+                .truncationMode(.tail)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.trailing, 22)
+        }
+    }
+
+    @ViewBuilder
     private func calendarTitleText() -> some View {
         Text(reminderItem.reminder.calendar.title)
             .font(.footnote)
@@ -269,6 +295,7 @@ struct ReminderItemView: View {
 
         let reminder = EKReminder(eventStore: .init())
         reminder.title = "Look for awesome projects on GitHub"
+        reminder.notes = "Review the repository documentation and recent changes."
         reminder.isCompleted = false
         reminder.calendar = calendar
         reminder.addDueDateAndAlarm(for: Date().addingTimeInterval(86_400), withTime: false)

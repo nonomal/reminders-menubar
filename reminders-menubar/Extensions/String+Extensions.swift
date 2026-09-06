@@ -22,20 +22,18 @@ extension String {
         return NSRange(location: 0, length: endIndex.utf16Offset(in: self))
     }
     
-    func toDetectedLinkAttributedString() -> String {
+    @available(macOS 12, *)
+    func toDetectedLinkAttributedString() -> AttributedString {
         let range = NSRange(self.startIndex..., in: self)
         let detector = try? NSDataDetector(types: NSTextCheckingResult.CheckingType.link.rawValue)
-        guard let matches = detector?.matches(in: self, options: [], range: range), !matches.isEmpty else {
-            return self
-        }
-        
         let attributedString = NSMutableAttributedString(string: self)
-        for match in matches {
+
+        for match in detector?.matches(in: self, options: [], range: range) ?? [] {
             if let url = match.url {
                 attributedString.addAttribute(.link, value: url, range: match.range)
             }
         }
-        
-        return attributedString.string
+
+        return AttributedString(attributedString)
     }
 }
