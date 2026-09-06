@@ -5,6 +5,7 @@ private enum PreferencesKeys {
     static let calendarIdentifiersFilter = "calendarIdentifiersFilter"
     static let calendarIdentifierForSaving = "calendarIdentifierForSaving"
     static let autoSuggestTodayForNewReminders = "autoSuggestTodayForNewReminders"
+    static let closePopoverAfterCreatingReminder = "closePopoverAfterCreatingReminder"
     static let rmbColorScheme = "rmbColorScheme"
     static let preferTransparentBackground = "backgroundIsTransparent"
     static let showUpcomingReminders = "showUpcomingReminders"
@@ -92,6 +93,17 @@ class UserPreferences: ObservableObject {
     }() {
         didSet {
             UserPreferences.defaults.set(autoSuggestToday, forKey: PreferencesKeys.autoSuggestTodayForNewReminders)
+        }
+    }
+
+    @Published var closePopoverAfterCreatingReminder: Bool = {
+        return defaults.bool(forKey: PreferencesKeys.closePopoverAfterCreatingReminder)
+    }() {
+        didSet {
+            UserPreferences.defaults.set(
+                closePopoverAfterCreatingReminder,
+                forKey: PreferencesKeys.closePopoverAfterCreatingReminder
+            )
         }
     }
     

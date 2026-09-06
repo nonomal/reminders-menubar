@@ -377,6 +377,9 @@ struct ReminderEditView: View {
         if case .create = mode {
             RemindersService.shared.createNew(with: rmbReminder, in: calendar)
             remindersData.calendarForSaving = calendar
+            if userPreferences.closePopoverAfterCreatingReminder {
+                AppDelegate.shared.popover.performClose(nil)
+            }
         } else if case .edit(let ekReminder, _) = mode {
             ekReminder.update(with: rmbReminder)
             if ekReminder.hasChanges || rmbReminder.hasPrivateApiChanges {

@@ -13029,6 +13029,256 @@
         }
       }
     },
+    "newReminderClosePopoverNote" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Užitečné pro rychlé vytvoření připomínky bez další interakce. Po uložení znovu otevřete okno, pokud chcete připomínky zobrazit, upravit nebo přidat."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nützlich, um schnell eine Erinnerung ohne weitere Interaktion zu erstellen. Öffne nach dem Sichern das Fenster erneut, um Erinnerungen anzuzeigen, zu bearbeiten oder hinzuzufügen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Useful for quickly creating a reminder without further interaction. After saving, reopen the window to view, edit, or add reminders."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Útil para crear rápidamente un recordatorio sin más interacción. Después de guardarlo, vuelve a abrir la ventana para ver, editar o agregar recordatorios."
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapaki-pakinabang para sa mabilis na paggawa ng paalala nang walang karagdagang interaksiyon. Pagkatapos mag-save, buksang muli ang window para tingnan, i-edit, o magdagdag ng mga paalala."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permet de créer rapidement un rappel sans autre interaction. Après l’enregistrement, rouvrez la fenêtre pour consulter, modifier ou ajouter des rappels."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berguna untuk membuat pengingat dengan cepat tanpa interaksi lebih lanjut. Setelah menyimpan, buka kembali jendela untuk melihat, mengedit, atau menambahkan pengingat."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utile per creare rapidamente un promemoria senza ulteriori interazioni. Dopo il salvataggio, riapri la finestra per visualizzare, modificare o aggiungere promemoria."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加の操作をせずにリマインダーをすばやく作成する場合に便利です。保存後にリマインダーを表示、編集、追加するには、ウインドウをもう一度開いてください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "추가 작업 없이 미리 알림을 빠르게 생성할 때 유용합니다. 저장 후 미리 알림을 보거나 편집하거나 추가하려면 윈도우를 다시 여십시오."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Handig om snel een herinnering aan te maken zonder verdere interactie. Open na het bewaren het venster opnieuw om herinneringen te bekijken, te bewerken of toe te voegen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przydatne do szybkiego tworzenia przypomnienia bez dalszej interakcji. Po zapisaniu otwórz okno ponownie, aby wyświetlić, edytować lub dodać przypomnienia."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Útil para criar rapidamente um lembrete sem outras interações. Após salvar, reabra a janela para visualizar, editar ou adicionar lembretes."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удобно для быстрого создания напоминания без дальнейших действий. После сохранения снова откройте окно, чтобы просмотреть, изменить или добавить напоминания."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Užitočné na rýchle vytvorenie pripomienky bez ďalšej interakcie. Po uložení znova otvorte okno, ak chcete pripomienky zobraziť, upraviť alebo pridať."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başka bir işlem yapmadan hızlıca anımsatıcı oluşturmak için kullanışlıdır. Kaydettikten sonra anımsatıcıları görüntülemek, düzenlemek veya eklemek için pencereyi yeniden açın."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зручно для швидкого створення нагадування без подальшої взаємодії. Після збереження знову відкрийте вікно, щоб переглянути, відредагувати або додати нагадування."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hữu ích để tạo nhanh một lời nhắc mà không cần thao tác thêm. Sau khi lưu, hãy mở lại cửa sổ để xem, chỉnh sửa hoặc thêm lời nhắc."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "适用于无需进一步操作即可快速创建提醒。保存后，请重新打开窗口以查看、编辑或添加提醒。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "適合在不需進一步操作的情況下快速建立提醒事項。儲存後，請重新開啟視窗以檢視、編輯或加入提醒事項。"
+          }
+        }
+      }
+    },
+    "newReminderClosePopoverOption" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zavřít okno po vytvoření připomínky"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fenster nach dem Erstellen einer Erinnerung schließen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close window after creating a reminder"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerrar la ventana después de crear un recordatorio"
+          }
+        },
+        "fil-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Isara ang window pagkatapos gumawa ng paalala"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fermer la fenêtre après avoir créé un rappel"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutup jendela setelah membuat pengingat"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiudi la finestra dopo aver creato un promemoria"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リマインダー作成後にウインドウを閉じる"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "미리 알림을 생성한 후 윈도우 닫기"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sluit venster na aanmaken van herinnering"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zamknij okno po utworzeniu przypomnienia"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fechar janela após criar um lembrete"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закрывать окно после создания напоминания"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zavrieť okno po vytvorení pripomienky"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir anımsatıcı oluşturduktan sonra pencereyi kapat"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закривати вікно після створення нагадування"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đóng cửa sổ sau khi tạo lời nhắc"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "创建提醒后关闭窗口"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "建立提醒事項後關閉視窗"
+          }
+        }
+      }
+    },
     "newReminderSettingsLabel" : {
       "extractionState" : "manual",
       "localizations" : {

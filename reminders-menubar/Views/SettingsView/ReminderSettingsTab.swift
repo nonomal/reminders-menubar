@@ -10,6 +10,15 @@ struct ReminderSettingsTab: View {
                     rmbLocalized(.newReminderAutoSuggestTodayOption),
                     isOn: $userPreferences.autoSuggestToday
                 )
+
+                Toggle(
+                    rmbLocalized(.newReminderClosePopoverOption),
+                    isOn: $userPreferences.closePopoverAfterCreatingReminder
+                )
+
+                Text(rmbLocalized(.newReminderClosePopoverNote))
+                    .modifier(SettingsNoteStyle())
+                    .padding(.leading, 20)
             }
 
             SettingsDivider()
